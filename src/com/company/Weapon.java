@@ -16,7 +16,7 @@ public class Weapon {
         return nameWeapon;
     }
 
-    public void setNameWeapon(String nammeWeapon) {
-        this.nameWeapon = nammeWeapon;
+    public void setNameWeapon(String nameWeapon) {
+        this.nameWeapon = nameWeapon;
     }
 }
