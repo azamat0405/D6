@@ -1,44 +1,28 @@
 package com.company;
 
 public class GameEntity {
-    private int bossHealth = 400;// тут я правильно сделал или нет
-    private int bossDamage = 30;
+    private int heals;
+    private double damage;
 
-    private  int heroesHeals = 300;
-    private int heroesDamage = 20;
-
-    public int getBossHealth() {
-        return bossHealth;
+    public int getHeals() {
+        return heals;
     }
 
-    public void setBossHealth(int bossHealth) {
-        this.bossHealth = bossHealth;
+    public void setHeals(int heals) {
+        this.heals = heals;
     }
 
-    public int getBossDamage() {
-        return bossDamage;
+    public double getDamage() {
+        return (int) damage;
     }
 
-    public void setBossDamage(int bossDamage) {
-        this.bossDamage = bossDamage;
-    }
-
-    public int getHeroesHeals() {
-        return heroesHeals;
-    }
-
-    public void setHeroesHeals(int heroesHeals) {
-        this.heroesHeals = heroesHeals;
-    }
-
-    public int getHeroesDamage() {
-        return heroesDamage;
-    }
-
-    public void setHeroesDamage(int heroesDamage) {
-        this.heroesDamage = heroesDamage;
+    public void setDamage(double damage) {
+        this.damage = damage;
     }
 }
+
+
+
 
 
 
